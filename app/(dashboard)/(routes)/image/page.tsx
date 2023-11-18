@@ -100,7 +100,7 @@ function ImagePage() {
                 )}
               />
               <FormField 
-                controle={form.control}
+                control={form.control}
                 name="amount"
                 render={({field}) => (
                   <FormItem className="col-span-12 lg:col-span-2">
