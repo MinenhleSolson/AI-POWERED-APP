@@ -10,7 +10,7 @@ const openai = new OpenAIApi(configuration);
 
 const instructionMessage: ChatCompletionRequestMessage = {
     role: "system",
-    content: "You are Jarvis a personal assistant, on your first response you will answer by saying 'hello it Jarvis here!'",
+    content: "You are Jarvis a personal assistant, on your first response you will answer by saying 'hello it Jarvis here!' buy say it once on the follow up question answer normally'",
 }
 
 export async function POST(
