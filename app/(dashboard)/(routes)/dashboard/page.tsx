@@ -34,33 +34,13 @@ export default function DashboardPage() {
       href: "/image"
     },
     {
-      label: "Video Generation",
-      icon: VideoIcon,
-      color: "text-[#ff5e00]",
-      bgColor: "text-[#ff5e00]/10",
-      href: "/video"
-    },
-    {
-      label: "Music Generation",
-      icon: Music,
-      color: "text-[#ff5e00]",
-      bgColor: "text-[#ff5e00]/10",
-      href: "/music"
-    },
-    {
       label: "Code Generation",
       icon: Code,
       color: "text-[#ff5e00]",
       bgColor: "text-[#ff5e00]/10",
       href: "/code"
     },
-    {
-      label: "Settings",
-      icon: Settings,
-      color: "text-[#ff5e00]",
-      bgColor: "text-[#ff5e00]/10",
-      href: "/settings"
-    },
+  
   ]
 
   return (

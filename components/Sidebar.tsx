@@ -42,18 +42,6 @@ function Sidebar() {
             href: "/image",
             color: "text-[#FF5E00]",
         },
-        {
-            label: "Video Generation",
-            icon: VideoIcon, 
-            href: "/video",
-            color: "text-[#FF5E00]",
-        },
-        {
-            label: "Music Generation",
-            icon: Music, 
-            href: "/music",
-            color: "text-[#FF5E00]",
-        },
 
         {
             label: "Code Generation",
@@ -61,12 +49,7 @@ function Sidebar() {
             href: "/code",
             color: "text-[#FF5E00]",
         },
-        {
-            label: "Settings",
-            icon: Settings, 
-            href: "/settings",
-            color: "text-[#FF5E00]",
-        },
+      
     ]
 
   return (
