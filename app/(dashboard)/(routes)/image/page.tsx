@@ -100,6 +100,7 @@ function ImagePage() {
                 )}
               />
               <FormField 
+                //deployment error fixed
                 control={form.control}
                 name="amount"
                 render={({field}) => (
