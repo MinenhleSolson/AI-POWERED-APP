@@ -21,8 +21,7 @@ const montserrat = Montserrat({
 
 function Sidebar() {
 
-    const pathname = usePathname()
-
+    const pathname = usePathname();
     const routes = [
         {
             label: "Dashboard",
